@@ -1,0 +1,232 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #134077;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 120px;
+  background: #fff;
+  box-shadow: 0px 4px 18px -6px #0057ff;
+  border-radius: 0 0 13px 13px;
+  justify-content: start;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-start {
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: end;
+  align-items: center;
+}
+
+.flex-grow {
+  flex-grow: 2;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  padding: 0 50px;
+}
+
+button,
+.logout {
+  background-color: #0057ff;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.red {
+  background-color: #bd0312;
+}
+
+.yellow {
+  background-color: #ffc108;
+}
+
+.add {
+  background-color: #079907;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 40px;
+}
+
+label {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.form {
+  width: 660px;
+  background: #ffffff;
+  border: 1px solid #134077;
+  border-radius: 19px;
+  padding: 40px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.form input[type="submit"] {
+  background-color: #0057ff;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #b9c4cf;
+}
+
+.icon-toggle {
+  position: relative;
+}
+
+.icon-toggle button {
+  position: absolute;
+  top: 27%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ion-icon {
+  color: #0057ff;
+  font-size: 20px;
+}
+
+a.restore {
+  color: #2d224c;
+  float: right;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.submit {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.submit a {
+  color: #2d214c;
+  font-weight: 400;
+}
+
+.submit a:hover {
+  color: #b9c4cf;
+}
+
+.error {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  translate: -50%;
+  background-color: #850610;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.success {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  translate: -50%;
+  background-color: #045907;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.card button {
+  background-color: #0057ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
